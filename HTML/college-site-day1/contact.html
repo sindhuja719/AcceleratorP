@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="ABC College - Contact" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABC College | Contact</title>
+</head>
+<body>
+<header>
+  <img src="assets/logo.png" alt="ABC College Logo" width="56" height="56" />
+  <h1>ABC College</h1>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="departments.html">Departments</a> |
+    <a href="courses.html">Courses</a> |
+    <a href="admissions.html">Admissions</a> |
+    <a href="events.html">Events</a> |
+    <a href="placements.html">Placements</a> |
+    <a href="faculty.html">Faculty</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+  <hr />
+</header>
+
+<main>
+  <section>
+    <h2>Contact Us</h2>
+    <!-- TODO(26): Insert contact banner image exactly -->
+    <!-- TODO(26A) -->
+     <figure>
+      <img src="assets/logo_banner.jpg" alt="Logo" width="600" />
+      <figcaption>Contact us at</figcaption>
+    </figure>
+    <p>We’d love to hear from you. Use the form below or visit our campus.</p>
+  </section>
+
+  <section>
+    <h2>Send a Message</h2>
+    <form action="send_message.html" method="post">
+      <!-- TODO(27): Add all controls exactly as specified -->
+
+      <!-- TODO(27A) -->
+       <label for="name">Name:</label>
+      <input type="text" id="name" name="fullname" required><br><br>
+      <!-- TODO(27B) -->
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="useremail" required><br><br>
+      <!-- TODO(27C) -->
+       <label for="sub">Subject:</label>
+       <input type="text" id="sub" name="subject" required><br><br>
+      <!-- TODO(27D) -->
+       <label for="message">Message:</label>
+       <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+       <!-- TODO(27E) -->
+        <label for="purpose" >Purpose:</label>
+        <select id="purpose"  name="purpose" required>
+          <option value="">--Select Purpose --</option>
+          <option value="general">General</option>
+          <optioo value="admsissions">Admissions</optioo>
+          <option value="placements">Placements</option>
+        </select><br><br>
+        <!-- TODO(27F) -->
+         <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <section>
+    <h2>Location</h2>
+    <!-- TODO(28): Insert campus map image and iframe exactly -->
+    <!-- TODO(28A) -->
+     <img src="assets/campus_map.jpg" alt="Campus Map" width="400" hieght="300"><br><br>
+    <!-- TODO(28B) -->
+     <iframe src="https://www.google.com/maps/" width="400" height="300"
+      style="border:0;"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section>
+    <h2>Other Contacts</h2>
+    <ul>
+      <!-- TODO(29): Add three <li> with mailto links exactly as specified -->
+      <!-- TODO(29A) --><!-- TODO(29B) --><!-- TODO(29C) -->
+       <li><a href="mailto:admissions@abccollege.edu">admissions@abccollege.edu</a></li>
+    <li><a href="mailto:placements@abccollege.edu">placements@abccollege.edu</a></li>
+    <li><a href="mailto:support@abccollege.edu">support@abccollege.edu</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <hr />
+  <address>ABC College, Knowledge Avenue, Hyderabad, India • +91-40-1234-5678</address>
+  <p>&copy; 2025 ABC College. All rights reserved.</p>
+</footer>
+</body>
+</html>

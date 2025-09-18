@@ -1,0 +1,24 @@
+/* TODO: Students — add CSS here (internal <style>) OR link an external CSS file.
+       Requirements for .card:
+       - Rounded corners: 10px radius
+       - Background image: use assets_user_photo.png
+       - White overlay using rgba() on top of the image behind the text
+  */
+  body{
+  .card{
+    border-radius: 10px;
+    background-image:url("assets_user_photo.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width:400px;
+margin: auto;
+  }
+  .card.overlay
+  {
+   
+    background: rgba(255,255,255,0.85);
+    padding: 20px;
+  }
+}
+  
